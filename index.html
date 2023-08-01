@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Imprescindibles para responsive design los meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="./css/miestilo.css">
+
+    <title>Pagina de Bootstrap con css local</title>
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" width="30px" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeria">Sección 1</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Sección 2
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Sub-Sección 1</a></li>
+                <li><a class="dropdown-item" href="#">Sub-Sección 2</a></li>
+                <li><a class="dropdown-item" href="#">Sub-Sección 3</a></li>
+              </ul>
+            </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+    <div class="container">
+    <h1 class="p-3">Página de prueba</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est consectetur placeat molestias provident temporibus et doloremque voluptatibus voluptas, quam totam commodi similique veniam? Aperiam qui nam ipsa architecto harum pariatur beatae deserunt omnis ut. Quo quam quibusdam at laudantium repudiandae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est consectetur placeat molestias provident temporibus et doloremque voluptatibus voluptas, quam totam commodi similique veniam? Aperiam qui nam ipsa architecto harum pariatur beatae deserunt omnis ut. Quo quam quibusdam at laudantium repudiandae.</p>
+    </div>
+    <div class="card m-5 mx-auto" style="width: 18rem;">
+      <img src="img/perfil.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Juan Pérez</h5>
+        <p class="card-text">Soy una persona sumamente proactiva.</p>
+        <a href="#" class="btn btn-primary">ir a mi pagina de linkedin</a>
+      </div>
+    </div>
+    <div class="dropdown m-5">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
+    <div class="container">
+      <h1>Ejemplo Acordeon</h1>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="p-3 m-5 bg-info text-light">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi qui impedit soluta et, nam nisi explicabo quis at quo magni perspiciatis repellat obcaecati corrupti animi rem aliquam cupiditate harum earum quisquam nulla, pariatur non aliquid natus corporis! Deleniti obcaecati quibusdam aspernatur, ex aliquam molestiae sequi culpa distinctio porro! Inventore natus 
+      </p>
+    </footer>
+
+
+    <!-- es importante primero poner el script de popper y despues el de bootstrap -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>

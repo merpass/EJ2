@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+.estiloPropio{
+    color:blueviolet;
+    text-align: center;
+    margin: 20px;
+}
+.estiloFooter{
+    margin:3em;
+    padding:10px;
+}
+.carousel {
+    width: 30%;
+    margin: 0 auto;
+}
+.conMargen{
+    background-color: aliceblue;
+}
+.textoazul{
+    color:blue;
+    font-weight: bold;
+}
+.navegacion{
+    background-color: blueviolet;
+}
